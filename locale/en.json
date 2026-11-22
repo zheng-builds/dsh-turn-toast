@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Turn notify",
+    "description": "Shows a desktop toast in the bottom-right corner when a turn finishes. Skipped while a fullscreen app or presentation mode is active, and optionally while the DSH window is focused."
+  }
+}

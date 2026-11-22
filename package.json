@@ -1,0 +1,45 @@
+{
+    "name":  "dsh-turn-toast",
+    "version":  "0.1.0",
+    "type":  "module",
+    "description":  "Desktop toast with a soft chime when a DeepSeek Harness turn finishes; skipped in fullscreen apps.",
+    "keywords":  [
+                     "dsh",
+                     "deepseek-harness",
+                     "notification",
+                     "toast",
+                     "windows"
+                 ],
+    "author":  "z1628873342",
+    "license":  "MIT",
+    "exports":  {
+                    ".":  "./index.js",
+                    "./locale/*.json":  "./locale/*.json",
+                    "./icon":  "./icon.svg"
+                },
+    "files":  [
+                  "index.js",
+                  "cordis.patch.yml",
+                  "locale",
+                  "lib",
+                  "assets",
+                  "icon.svg",
+                  "README.md"
+              ],
+    "engines":  {
+                    "node":  "\u003e=22"
+                },
+    "dsh":  {
+                "bundle":  {
+                               "patch":  "./cordis.patch.yml"
+                           }
+            },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "git+https://github.com/zheng-builds/dsh-turn-toast.git"
+                   },
+    "homepage":  "https://github.com/zheng-builds/dsh-turn-toast#readme",
+    "bugs":  {
+                 "url":  "https://github.com/zheng-builds/dsh-turn-toast/issues"
+             }
+}

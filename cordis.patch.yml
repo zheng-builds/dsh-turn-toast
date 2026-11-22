@@ -1,0 +1,12 @@
+# dsh-turn-notify - desktop toast when a turn finishes.
+# Change config values here; the user's patch layer survives upgrades.
+- insert:
+    - id: turn-notify
+      name: dsh-turn-toast
+      config:
+        enabled: true
+        seconds: 6
+        onlyWhenUnfocused: true
+        maxChars: 40
+        sound: true
+        soundFile: ''
