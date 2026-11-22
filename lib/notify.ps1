@@ -88,17 +88,17 @@ try {
         WindowStyle="None" AllowsTransparency="True" Background="Transparent"
         ShowInTaskbar="False" ShowActivated="False" Topmost="True"
         ResizeMode="NoResize" SizeToContent="WidthAndHeight">
-  <Border CornerRadius="12" Background="#F01E1E1E" BorderBrush="#40FFFFFF" BorderThickness="1" Padding="16,12">
+  <Border CornerRadius="12" Background="#FAFFFFFF" BorderBrush="#E0E0E0" BorderThickness="1" Padding="16,12">
     <Border.Effect>
-      <DropShadowEffect BlurRadius="18" ShadowDepth="3" Opacity="0.45" Color="Black"/>
+      <DropShadowEffect BlurRadius="16" ShadowDepth="2" Opacity="0.18" Color="Black"/>
     </Border.Effect>
     <StackPanel Orientation="Horizontal">
       <Border Width="36" Height="36" CornerRadius="18" Background="#2D6CDF" Margin="0,0,12,0">
         <TextBlock Text="&#x2713;" Foreground="White" FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Center"/>
       </Border>
       <StackPanel MaxWidth="300">
-        <TextBlock Text="DeepSeek Harness" Foreground="#FFFFFF" FontSize="13" FontWeight="SemiBold"/>
-        <TextBlock x:Name="MsgText" Foreground="#C8C8C8" FontSize="12" TextWrapping="Wrap" Margin="0,4,0,0"/>
+        <TextBlock Text="DeepSeek Harness" Foreground="#1A1A1A" FontSize="13" FontWeight="SemiBold"/>
+        <TextBlock x:Name="MsgText" Foreground="#5F5F5F" FontSize="12" TextWrapping="Wrap" Margin="0,4,0,0"/>
       </StackPanel>
     </StackPanel>
   </Border>

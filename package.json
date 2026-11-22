@@ -1,6 +1,6 @@
 {
     "name":  "dsh-turn-toast",
-    "version":  "0.1.0",
+    "version":  "0.1.1",
     "type":  "module",
     "description":  "Desktop toast with a soft chime when a DeepSeek Harness turn finishes; skipped in fullscreen apps.",
     "keywords":  [
